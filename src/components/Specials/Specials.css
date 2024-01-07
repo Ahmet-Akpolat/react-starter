@@ -1,0 +1,54 @@
+.specials {
+    margin-left: 1%;
+    position: relative;
+    width: 25.7vw; /* Konteynırın genişliğinin %50'si */
+    height: 15vw; /*Viewport'un yüksekliğinin %50'si */
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .productImage {
+    width: 100%;
+    transition: transform 1.2s ease;
+
+  }
+  .specials:hover .productImage {
+    transform: scale(1.017);
+  }
+
+  .productText {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 16.7%;
+    bottom : 0;
+    position:absolute;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .productDesc {
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 92%;
+  }
+
+  .goShop {
+    position: absolute;
+    right: 5%; /* Sağa doğru 10px */
+    bottom: 10px;
+    text-decoration: none;
+    font-size: 93%;
+    font-weight: 600;
+    color: black;
+  }
+
+  .specials:hover .productText {
+    background-color: #f68528
+  }
+
+  .specials:hover .goShop {
+    color: white;
+  }
